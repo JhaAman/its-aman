@@ -23,6 +23,15 @@ module.exports = {
           900: "#600C19",
         },
       },
+      animation: {
+        slider: "slider 4s linear forwards",
+      },
+      keyframes: {
+        slider: {
+          "0%": { width: "0%" },
+          "100%": { width: "100%" },
+        },
+      },
     },
   },
   plugins: [],
